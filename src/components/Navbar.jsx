@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Navbar = () => {
+const Navbar = ({cartCount,setPage}) => {
 
     return (
         <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
