@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 import Products from "./components/Products";
 import Cart from "./components/Cart";
 import Footer from "./components/Footer";
@@ -21,7 +21,7 @@ function App(){
 
  return(
   <>
-   <Header cartCount={cart.length} setPage={setPage}/>
+   <Navbar cartCount={cart.length} setPage={setPage}/>
 
    <div className="container mt-4">
 
